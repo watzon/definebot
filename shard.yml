@@ -1,0 +1,22 @@
+name: definebot
+version: 0.1.0
+
+authors:
+  - Chris Watson <chris@watzon.me>
+
+targets:
+  definebot:
+    main: src/definebot.cr
+
+dependencies:
+  telegram_bot:
+    path: /home/watzon/Projects/Clones/telegram_bot
+  oxford_dictionary:
+    github: watzon/oxford-dictionary.cr
+    branch: master
+  dotenv:
+    github: gdotdesign/cr-dotenv
+
+crystal: 0.23.1
+
+license: MIT
